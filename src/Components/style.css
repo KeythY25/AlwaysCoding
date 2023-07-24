@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   font-family: 'Robot', sans-serif;
+}
+
+body{
+    background-color: #fceec8;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top:100px;
+    display: flex;
+}
+
+.left_side, .right_side {
+    flex-basis: 50%;
+    
+}
+
+.left_side{
+    display: grid;
+    grid-template-columns: repeat(auto, minmax(200px,0.5fr));
+    grid-gap: 50px;
+}
+
+
+
+.card
+{
+    width: 300px;
+    background-color: #9edef9;
+    border-radius: 1rem;
+    box-shadow:  0 5px 5px rgba(0,0,0,0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.right_side{
+    color: black;
+    width: 50%;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+}
+
+.right_side img{
+    margin: 2rem;
+    height: 160px;
+}
+
+.right_side h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.abilities{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.abilities .group{
+    background-color: #b74555;
+    color: white;
+    padding: 0.5rem;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-left: 1rem;
+}
+
+.stats{
+    margin-top: 2rem;
+}
+
+.btn_grp{
+    display: flex;
+}
+
+.btn_grp button{ 
+    outline: none;
+    border: none;
+    width: 120px;
+    padding: 1rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+    
+}
